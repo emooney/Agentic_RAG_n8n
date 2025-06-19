@@ -1182,22 +1182,6 @@
           "name": "Postgres Create Tables"
         }
       }
-    },
-    {
-      "parameters": {
-        "content": "## 🚀 Ultimate n8n Agentic RAG Template\n\n**Author:** [Cole Medin](https://www.youtube.com/@ColeMedin)\n\n## What is this?\nThis template provides a complete implementation of an **Agentic RAG (Retrieval Augmented Generation)** system in n8n that can be extended easily for your specific use case and knowledge base. Unlike standard RAG which only performs simple lookups, this agent can reason about your knowledge base, self-improve retrieval, and dynamically switch between different tools based on the specific question.\n\n## Why Agentic RAG?\nStandard RAG has significant limitations:\n- Poor analysis of numerical/tabular data\n- Missing context due to document chunking\n- Inability to connect information across documents\n- No dynamic tool selection based on question type\n\n## What makes this template powerful:\n- **Intelligent tool selection**: Switches between RAG lookups, SQL queries, or full document retrieval based on the question\n- **Complete document context**: Accesses entire documents when needed instead of just chunks\n- **Accurate numerical analysis**: Uses SQL for precise calculations on spreadsheet/tabular data\n- **Cross-document insights**: Connects information across your entire knowledge base\n- **Multi-file processing**: Handles multiple documents in a single workflow loop\n- **Efficient storage**: Uses JSONB in Supabase to store tabular data without creating new tables for each CSV\n\n## Getting Started\n1. Run the table creation nodes first to set up your database tables in Supabase\n2. Upload your documents through Google Drive (or swap out for a different file storage solution)\n3. The agent will process them automatically (chunking text, storing tabular data in Supabase)\n4. Start asking questions that leverage the agent's multiple reasoning approaches\n\n## Customization\nThis template provides a solid foundation that you can extend by:\n- Tuning the system prompt for your specific use case\n- Adding document metadata like summaries\n- Implementing more advanced RAG techniques\n- Optimizing for larger knowledge bases\n\n---\n\nI do intend on making a local version of this agent very soon!",
-        "height": 1320,
-        "width": 540,
-        "color": 6
-      },
-      "type": "n8n-nodes-base.stickyNote",
-      "position": [
-        -5120,
-        320
-      ],
-      "typeVersion": 1,
-      "id": "aae34c7b-1ec8-4122-a299-7697ecf7a365",
-      "name": "Sticky Note9"
     }
   ],
   "pinData": {},
@@ -1607,7 +1591,7 @@
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "14ea9cee-bbc3-4473-acef-fddcd6c582cb",
+  "versionId": "b819b61b-6bf4-454a-9566-47674ca39783",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "c1cc2e18d32a91e26eb78bbc6373615a06451476e56efe94394fc82c93d00305"
