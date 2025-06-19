@@ -110,13 +110,6 @@ These create:
 
 ---
 
-## ✍️ Author
-
-Created by [Cole Medin](https://www.youtube.com/@ColeMedin)  
-Extended and analyzed by N8N A.I Assistant (By Nskha)
-
----
-
 ## 🛠️ Customization Ideas
 
 - Add document summarization during ingest
